@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgb(54, 93, 99), rgb(48, 62, 143));
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+/* 
+.container {
+  margin: 0 200px;
+} */
+
+.header{
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  font-weight: 400;
+  margin: 0;
+}
+
+.icon {
+ width: 100px;
+}
+
+.weather-today {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.week{
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.day {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3{
+  text-align: left;
+}
+
+.day-icon p {
+  text-align: left;
+}
